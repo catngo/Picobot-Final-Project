@@ -1,0 +1,54 @@
+Name: Cat Ngo
+Project: Picobot Project
+
+I decide to run my GA program with a population size of 200 in 20 generations. For my parameters, I set the top 10% of each generation to be the parents of the next generation. I arrange them to mate randomly, so there's a possibilty that one mates with itself. My mutation rate was 33%, and it only mutates the new offspring, leaving the parents genes to be uncahnged.
+
+Through 20 generations, my final average fitness was 92%, with the best being 96%. The first generation had an average fitness of only 6%, but its best fitness was 36%. So from those parents, each generation average fitness increased, and it only took to the fifth generation for the average fitness to be at least 90% (92%). So the average fitness increased quite fast for my program.
+
+0 xxxx -> W 0
+0 Nxxx -> S 1
+0 NExx -> W 0
+0 NxWx -> E 1
+0 xxxS -> E 2
+0 xExS -> W 3
+0 xxWS -> N 2
+0 xExx -> N 4
+0 xxWx -> S 4
+1 xxxx -> E 1
+1 Nxxx -> E 1
+1 NExx -> W 1
+1 NxWx -> E 2
+1 xxxS -> W 2
+1 xExS -> N 0
+1 xxWS -> N 0
+1 xExx -> W 0
+1 xxWx -> E 0
+2 xxxx -> N 2
+2 Nxxx -> S 3
+2 NExx -> S 3
+2 NxWx -> E 2
+2 xxxS -> W 2
+2 xExS -> W 1
+2 xxWS -> N 4
+2 xExx -> S 4
+2 xxWx -> E 2
+3 xxxx -> S 4
+3 Nxxx -> E 2
+3 NExx -> S 0
+3 NxWx -> E 4
+3 xxxS -> E 2
+3 xExS -> N 2
+3 xxWS -> N 4
+3 xExx -> W 0
+3 xxWx -> N 3
+4 xxxx -> W 0
+4 Nxxx -> E 4
+4 NExx -> W 0
+4 NxWx -> E 3
+4 xxxS -> W 0
+4 xExS -> W 0
+4 xxWS -> N 3
+4 xExx -> S 1
+4 xxWx -> E 1
+
+Fitness: 96.2%
